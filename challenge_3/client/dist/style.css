@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: honeydew;
+  color: seagreen;
+}
+
+#main {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+ul {
+  padding-left: 0px;
+}
+
+.input {
+  border: none;
+  padding : 0 10px;
+  margin  : 0;
+  width   : 240px;
+  border-bottom: 1px solid black;
+  background: none;
+}
+
+.update-input {
+  border: none;
+  padding : 0 10px;
+  margin  : 0;
+  width   : 160px;
+  border-bottom: 1px solid black;
+  background: none;
+}
+
+.subheading {
+  font-size: 10px;
+  font-style: italic;
+}
+
+.groceries {
+  margin: 10px;
+  list-style-type: none;
+}
+
+.strikethrough:checked + .strikeThis {
+  text-decoration: line-through;
+}
